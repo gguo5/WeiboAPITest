@@ -10,7 +10,7 @@ public class ShowStatus {
 
 	public static void main(String[] args) {
 		String access_token = WeiboConfig.getValue("access_token");//"2.00l7AovCf7hvVE58464c62e08L9iwD";//WeiboConfig.getValue("access_token");
-		String id = "3845766697388372";
+		String id = "3845766697388372";//3850716110477775  3845766697388372
 		Timeline tm = new Timeline(access_token);
 		try {
 			Status status = tm.showStatus(id);

@@ -1,0 +1,1 @@
+weibo4j.examples.suggestions.SuggestionsUsersNot_interested

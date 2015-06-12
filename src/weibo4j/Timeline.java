@@ -493,6 +493,30 @@ public class Timeline extends Weibo {
 				new PostParameter[] { new PostParameter("id", id) },
 				access_token));
 	}
+        
+        
+        
+        /**
+	 * 获取一条原创微博的最新转发微博的ID
+	 * 
+	 * @param id
+	 *            需要查询的微博ID
+	 * @return ids
+	 * @throws WeiboException
+	 *             when Weibo service or network is unavailable
+	 * @version weibo4j-V2 1.0.0
+	 * @see http://open.weibo.com/wiki/2/statuses/repost_timeline/ids
+	 * @since JDK 1.5
+	 */
+	public RepostTimelineIds getRepostTimelineIdsWithCursor(String id, String nextCursor)
+			throws WeiboException {
+		return new RepostTimelineIds(client.get(WeiboConfig.getValue("baseURL")
+				+ "statuses/repost_timeline/ids.json",
+				new PostParameter[] { new PostParameter("id", id),new PostParameter("page", nextCursor) },
+				access_token));
+	}
+        
+      
 
 	/**
 	 * 获取一条原创微博的最新转发微博的ID
