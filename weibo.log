@@ -1,0 +1,263 @@
+0    DEBUG [2015-06-12 15:36:49]  Request:
+0    DEBUG [2015-06-12 15:36:49]  GET:https://api.weibo.com/2/users/show.json
+80   DEBUG [2015-06-12 15:36:49]  Authorization: OAuth2 2.00l7AovCf7hvVE58464c62e08L9iwD
+80   DEBUG [2015-06-12 15:36:49]  API-RemoteIP: 10.124.71.92
+0    DEBUG [2015-06-12 15:38:34]  Request:
+0    DEBUG [2015-06-12 15:38:34]  GET:https://api.weibo.com/2/users/show.json
+70   DEBUG [2015-06-12 15:38:34]  Authorization: OAuth2 2.00l7AovCf7hvVE58464c62e08L9iwD
+70   DEBUG [2015-06-12 15:38:34]  API-RemoteIP: 10.124.71.92
+1703 DEBUG [2015-06-12 15:38:35]  Response:
+1703 DEBUG [2015-06-12 15:38:35]  https StatusCode:200
+1703 DEBUG [2015-06-12 15:38:35]  Date:Fri, 12 Jun 2015 05:38:35 GMT
+1703 DEBUG [2015-06-12 15:38:35]  Server:PWS/8.1.20.9
+1703 DEBUG [2015-06-12 15:38:35]  Transfer-Encoding:chunked
+1703 DEBUG [2015-06-12 15:38:35]  X-Px:nc h0-s14.p0-syd ( h0-s4.p5-pvg), nc h0-s4.p5-pvg ( origin)
+1703 DEBUG [2015-06-12 15:38:35]  Content-Type:application/json;charset=UTF-8
+1703 DEBUG [2015-06-12 15:38:35]  Vary:Accept-Encoding
+1703 DEBUG [2015-06-12 15:38:35]  Api-Server-IP:10.75.5.62
+1703 DEBUG [2015-06-12 15:38:35]  Connection:keep-alive
+1713 WARN  [2015-06-12 15:38:35]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+1713 DEBUG [2015-06-12 15:38:35]  {"id":2686434875,"idstr":"2686434875","class":1,"screen_name":"delpieroale","name":"delpieroale","province":"400","city":"7","location":"海外 澳大利亚","description":"胖纸官方微博已经开通-> @delpiero 欢迎前去围观骚扰和调戏！","url":"http://delpieroale.com","profile_image_url":"http://tp4.sinaimg.cn/2686434875/50/5684199880/1","profile_url":"u/2686434875","domain":"","weihao":"","gender":"m","followers_count":2599,"friends_count":86,"pagefriends_count":1,"statuses_count":1909,"favourites_count":16,"created_at":"Sat Mar 31 01:52:02 +0800 2012","following":false,"allow_all_act_msg":false,"geo_enabled":true,"verified":false,"verified_type":-1,"remark":"","status":{"created_at":"Tue Jun 09 16:29:58 +0800 2015","id":3851860618666547,"mid":"3851860618666547","idstr":"3851860618666547","text":"[爱你][爱你][爱你]","source_allowclick":0,"source_type":1,"source":"<a href=\"http://app.weibo.com/t/feed/9ksdit\" rel=\"nofollow\">iPhone客户端</a>","favorited":false,"truncated":false,"in_reply_to_status_id":"","in_reply_to_user_id":"","in_reply_to_screen_name":"","pic_urls":[],"geo":null,"reposts_count":0,"comments_count":0,"attitudes_count":0,"mlevel":0,"visible":{"type":0,"list_id":0},"darwin_tags":[]},"ptype":0,"allow_all_comment":true,"avatar_large":"http://tp4.sinaimg.cn/2686434875/180/5684199880/1","avatar_hd":"http://ww4.sinaimg.cn/crop.0.0.640.640.1024/a01fbe3bjw8ecd22eytl0j20hs0hsq3q.jpg","verified_reason":"","verified_trade":"","verified_reason_url":"","verified_source":"","verified_source_url":"","follow_me":false,"online_status":0,"bi_followers_count":61,"lang":"zh-cn","star":0,"mbtype":0,"mbrank":0,"block_word":0,"block_app":0,"credit_score":80,"urank":19}
+
+1743 INFO  [2015-06-12 15:38:35]  User [id=2686434875, screenName=delpieroale, name=delpieroale, province=400, city=7, location=海外 澳大利亚, description=胖纸官方微博已经开通-> @delpiero 欢迎前去围观骚扰和调戏！, url=http://delpieroale.com, profileImageUrl=http://tp4.sinaimg.cn/2686434875/50/5684199880/1, userDomain=, gender=m, followersCount=2599, friendsCount=86, statusesCount=1909, favouritesCount=16, createdAt=Sat Mar 31 04:52:02 AEDT 2012, following=false, verified=false, verifiedType=-1, allowAllActMsg=false, allowAllComment=true, followMe=false, avatarLarge=http://tp4.sinaimg.cn/2686434875/180/5684199880/1, onlineStatus=0, status=Status [user=null, idstr=3851860618666547, createdAt=Tue Jun 09 18:29:58 AEST 2015, id=3851860618666547, text=[爱你][爱你][爱你], source=Source [url=http://app.weibo.com/t/feed/9ksdit, relationShip=nofollow, name=iPhone客户端], favorited=false, truncated=false, inReplyToStatusId=-1, inReplyToUserId=-1, inReplyToScreenName=, thumbnailPic=, bmiddlePic=, originalPic=, retweetedStatus=null, geo=null, latitude=-1.0, longitude=-1.0, repostsCount=0, commentsCount=0, mid=3851860618666547, annotations=, mlevel=0, visible=Visible [type=0, list_id=0]], biFollowersCount=61, remark=null, lang=zh-cn, verifiedReason=, weihao=, statusId=]
+0    DEBUG [2015-06-12 15:40:25]  Request:
+0    DEBUG [2015-06-12 15:40:25]  GET:https://api.weibo.com/2/users/show.json
+0    DEBUG [2015-06-12 15:41:22]  Request:
+0    DEBUG [2015-06-12 15:41:22]  GET:https://api.weibo.com/2/users/show.json
+70   DEBUG [2015-06-12 15:41:22]  Authorization: OAuth2 2.00l7AovCf7hvVE58464c62e08L9iwD
+70   DEBUG [2015-06-12 15:41:22]  API-RemoteIP: 10.124.71.92
+1171 DEBUG [2015-06-12 15:41:23]  Response:
+1171 DEBUG [2015-06-12 15:41:23]  https StatusCode:200
+1171 DEBUG [2015-06-12 15:41:23]  Date:Fri, 12 Jun 2015 05:41:23 GMT
+1171 DEBUG [2015-06-12 15:41:23]  Server:PWS/8.1.20.9
+1171 DEBUG [2015-06-12 15:41:23]  Transfer-Encoding:chunked
+1171 DEBUG [2015-06-12 15:41:23]  X-Px:nc h0-s14.p0-syd ( h0-s4.p5-pvg), nc h0-s4.p5-pvg ( origin)
+1171 DEBUG [2015-06-12 15:41:23]  Content-Type:application/json;charset=UTF-8
+1171 DEBUG [2015-06-12 15:41:23]  Vary:Accept-Encoding
+1171 DEBUG [2015-06-12 15:41:23]  Api-Server-IP:10.75.5.93
+1171 DEBUG [2015-06-12 15:41:23]  Connection:keep-alive
+1181 WARN  [2015-06-12 15:41:23]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+1191 DEBUG [2015-06-12 15:41:23]  {"id":2686434875,"idstr":"2686434875","class":1,"screen_name":"delpieroale","name":"delpieroale","province":"400","city":"7","location":"海外 澳大利亚","description":"胖纸官方微博已经开通-> @delpiero 欢迎前去围观骚扰和调戏！","url":"http://delpieroale.com","profile_image_url":"http://tp4.sinaimg.cn/2686434875/50/5684199880/1","profile_url":"u/2686434875","domain":"","weihao":"","gender":"m","followers_count":2599,"friends_count":86,"pagefriends_count":1,"statuses_count":1909,"favourites_count":16,"created_at":"Sat Mar 31 01:52:02 +0800 2012","following":false,"allow_all_act_msg":false,"geo_enabled":true,"verified":false,"verified_type":-1,"remark":"","status":{"created_at":"Tue Jun 09 16:29:58 +0800 2015","id":3851860618666547,"mid":"3851860618666547","idstr":"3851860618666547","text":"[爱你][爱你][爱你]","source_allowclick":0,"source_type":1,"source":"<a href=\"http://app.weibo.com/t/feed/9ksdit\" rel=\"nofollow\">iPhone客户端</a>","favorited":false,"truncated":false,"in_reply_to_status_id":"","in_reply_to_user_id":"","in_reply_to_screen_name":"","pic_urls":[],"geo":null,"reposts_count":0,"comments_count":0,"attitudes_count":0,"mlevel":0,"visible":{"type":0,"list_id":0},"darwin_tags":[]},"ptype":0,"allow_all_comment":true,"avatar_large":"http://tp4.sinaimg.cn/2686434875/180/5684199880/1","avatar_hd":"http://ww4.sinaimg.cn/crop.0.0.640.640.1024/a01fbe3bjw8ecd22eytl0j20hs0hsq3q.jpg","verified_reason":"","verified_trade":"","verified_reason_url":"","verified_source":"","verified_source_url":"","follow_me":false,"online_status":0,"bi_followers_count":61,"lang":"zh-cn","star":0,"mbtype":0,"mbrank":0,"block_word":0,"block_app":0,"credit_score":80,"urank":19}
+
+1221 INFO  [2015-06-12 15:41:24]  User [id=2686434875, screenName=delpieroale, name=delpieroale, province=400, city=7, location=海外 澳大利亚, description=胖纸官方微博已经开通-> @delpiero 欢迎前去围观骚扰和调戏！, url=http://delpieroale.com, profileImageUrl=http://tp4.sinaimg.cn/2686434875/50/5684199880/1, userDomain=, gender=m, followersCount=2599, friendsCount=86, statusesCount=1909, favouritesCount=16, createdAt=Sat Mar 31 04:52:02 AEDT 2012, following=false, verified=false, verifiedType=-1, allowAllActMsg=false, allowAllComment=true, followMe=false, avatarLarge=http://tp4.sinaimg.cn/2686434875/180/5684199880/1, onlineStatus=0, status=Status [user=null, idstr=3851860618666547, createdAt=Tue Jun 09 18:29:58 AEST 2015, id=3851860618666547, text=[爱你][爱你][爱你], source=Source [url=http://app.weibo.com/t/feed/9ksdit, relationShip=nofollow, name=iPhone客户端], favorited=false, truncated=false, inReplyToStatusId=-1, inReplyToUserId=-1, inReplyToScreenName=, thumbnailPic=, bmiddlePic=, originalPic=, retweetedStatus=null, geo=null, latitude=-1.0, longitude=-1.0, repostsCount=0, commentsCount=0, mid=3851860618666547, annotations=, mlevel=0, visible=Visible [type=0, list_id=0]], biFollowersCount=61, remark=null, lang=zh-cn, verifiedReason=, weihao=, statusId=]
+0    DEBUG [2015-06-12 16:13:15]  Request:
+40   DEBUG [2015-06-12 16:13:16]  GET:https://api.weibo.com/2/statuses/user_timeline/ids.json
+100  DEBUG [2015-06-12 16:13:16]  Authorization: OAuth2 2.00l7AovCf7hvVE58464c62e08L9iwD
+100  DEBUG [2015-06-12 16:13:16]  API-RemoteIP: 10.124.71.92
+1679 DEBUG [2015-06-12 16:13:17]  Response:
+1679 DEBUG [2015-06-12 16:13:17]  https StatusCode:200
+1679 DEBUG [2015-06-12 16:13:17]  Date:Fri, 12 Jun 2015 06:13:17 GMT
+1679 DEBUG [2015-06-12 16:13:17]  Server:PWS/8.1.20.9
+1679 DEBUG [2015-06-12 16:13:17]  X-Px:nc h0-s14.p0-syd ( h0-s5.p5-pvg), nc h0-s5.p5-pvg ( origin)
+1679 DEBUG [2015-06-12 16:13:17]  Content-Length:222
+1679 DEBUG [2015-06-12 16:13:17]  Content-Type:application/json;charset=UTF-8
+1679 DEBUG [2015-06-12 16:13:17]  Vary:Accept-Encoding
+1679 DEBUG [2015-06-12 16:13:17]  Api-Server-IP:10.75.5.60
+1679 DEBUG [2015-06-12 16:13:17]  Connection:keep-alive
+1699 DEBUG [2015-06-12 16:13:17]  {"statuses":["3851860618666547","3851566736100820","3851181502029931","3851160152807204","3850980963686461"],"marks":[],"hasvisible":false,"previous_cursor":0,"next_cursor":0,"total_number":1909,"interval":0,"uve_blank":0}
+
+1719 INFO  [2015-06-12 16:13:17]  UserTimelineIds [next_cursor=0, previous_cursor=0, marks=[], hasvisible=false, statusesIds=[3851860618666547, 3851566736100820, 3851181502029931, 3851160152807204, 3850980963686461], total_number = 1909]
+0    DEBUG [2015-06-12 16:15:12]  Request:
+2    DEBUG [2015-06-12 16:15:12]  GET:https://api.weibo.com/2/statuses/show.json
+83   DEBUG [2015-06-12 16:15:13]  Authorization: OAuth2 2.00l7AovCf7hvVE58464c62e08L9iwD
+83   DEBUG [2015-06-12 16:15:13]  API-RemoteIP: 10.124.71.92
+1725 DEBUG [2015-06-12 16:15:14]  Response:
+1725 DEBUG [2015-06-12 16:15:14]  https StatusCode:200
+1725 DEBUG [2015-06-12 16:15:14]  Date:Fri, 12 Jun 2015 06:15:14 GMT
+1726 DEBUG [2015-06-12 16:15:14]  Server:PWS/8.1.20.9
+1726 DEBUG [2015-06-12 16:15:14]  Transfer-Encoding:chunked
+1726 DEBUG [2015-06-12 16:15:14]  X-Px:nc h0-s14.p0-syd ( h0-s14.p5-pvg), nc h0-s14.p5-pvg ( origin)
+1726 DEBUG [2015-06-12 16:15:14]  Content-Type:application/json;charset=UTF-8
+1726 DEBUG [2015-06-12 16:15:14]  Vary:Accept-Encoding
+1727 DEBUG [2015-06-12 16:15:14]  Api-Server-IP:10.75.5.92
+1727 DEBUG [2015-06-12 16:15:14]  Connection:keep-alive
+1731 WARN  [2015-06-12 16:15:14]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+1736 DEBUG [2015-06-12 16:15:14]  {"created_at":"Tue Jun 09 16:29:58 +0800 2015","id":3851860618666547,"mid":"3851860618666547","idstr":"3851860618666547","text":"[爱你][爱你][爱你]","source_allowclick":0,"source_type":1,"source":"<a href=\"http://app.weibo.com/t/feed/9ksdit\" rel=\"nofollow\">iPhone客户端</a>","favorited":false,"truncated":false,"in_reply_to_status_id":"","in_reply_to_user_id":"","in_reply_to_screen_name":"","pic_urls":[],"geo":null,"user":{"id":2686434875,"idstr":"2686434875","class":1,"screen_name":"delpieroale","name":"delpieroale","province":"400","city":"7","location":"海外 澳大利亚","description":"胖纸官方微博已经开通-> @delpiero 欢迎前去围观骚扰和调戏！","url":"http://delpieroale.com","profile_image_url":"http://tp4.sinaimg.cn/2686434875/50/5684199880/1","profile_url":"u/2686434875","domain":"","weihao":"","gender":"m","followers_count":2599,"friends_count":86,"pagefriends_count":1,"statuses_count":1909,"favourites_count":16,"created_at":"Sat Mar 31 01:52:02 +0800 2012","following":false,"allow_all_act_msg":false,"geo_enabled":true,"verified":false,"verified_type":-1,"remark":"","ptype":0,"allow_all_comment":true,"avatar_large":"http://tp4.sinaimg.cn/2686434875/180/5684199880/1","avatar_hd":"http://ww4.sinaimg.cn/crop.0.0.640.640.1024/a01fbe3bjw8ecd22eytl0j20hs0hsq3q.jpg","verified_reason":"","verified_trade":"","verified_reason_url":"","verified_source":"","verified_source_url":"","follow_me":false,"online_status":0,"bi_followers_count":61,"lang":"zh-cn","star":0,"mbtype":0,"mbrank":0,"block_word":0,"block_app":0,"credit_score":80,"urank":19},"retweeted_status":{"created_at":"Tue Jun 09 14:07:53 +0800 2015","id":3851824861945862,"mid":"3851824861945862","idstr":"3851824861945862","text":"皮耶罗夫妇带着Tobias观看法网决赛，小Tobias戴着和爸爸一样的帽子，心情看起来好了很多，并已经学会了主动躲避狗仔的镜头。","source_allowclick":0,"source_type":1,"source":"<a href=\"http://weibo.com/\" rel=\"nofollow\">微博 weibo.com</a>","favorited":false,"truncated":false,"in_reply_to_status_id":"","in_reply_to_user_id":"","in_reply_to_screen_name":"","pic_urls":[{"thumbnail_pic":"http://ww2.sinaimg.cn/thumbnail/961c7e24gw1esxt2ybltlj20cb0giaf8.jpg"},{"thumbnail_pic":"http://ww2.sinaimg.cn/thumbnail/961c7e24gw1esxt2vkynuj20bc0giq7k.jpg"}],"thumbnail_pic":"http://ww2.sinaimg.cn/thumbnail/961c7e24gw1esxt2ybltlj20cb0giaf8.jpg","bmiddle_pic":"http://ww2.sinaimg.cn/bmiddle/961c7e24gw1esxt2ybltlj20cb0giaf8.jpg","original_pic":"http://ww2.sinaimg.cn/large/961c7e24gw1esxt2ybltlj20cb0giaf8.jpg","geo":null,"user":{"id":2518449700,"idstr":"2518449700","class":1,"screen_name":"皮耶罗贴吧","name":"皮耶罗贴吧","province":"100","city":"1000","location":"其他","description":"百度皮耶罗贴吧微博 欢迎尤文蒂尼及喜欢皮耶罗的朋友关注","url":"http://tieba.baidu.com/f?kw=%C6%A4%D2%AE%C2%DE","profile_image_url":"http://tp1.sinaimg.cn/2518449700/50/5723893968/1","cover_image":"http://ww1.sinaimg.cn/crop.0.90.980.300/961c7e24gw1ejbzglxndhj20r80dc41t.jpg","cover_image_phone":"http://ww1.sinaimg.cn/crop.0.0.640.640/6cf8d7ebjw1e8xnzts583j20hs0hsac5.jpg","profile_url":"u/2518449700","domain":"","weihao":"","gender":"m","followers_count":3927,"friends_count":93,"pagefriends_count":0,"statuses_count":4949,"favourites_count":0,"created_at":"Sun Nov 06 23:51:06 +0800 2011","following":true,"allow_all_act_msg":false,"geo_enabled":true,"verified":false,"verified_type":-1,"remark":"","ptype":0,"allow_all_comment":true,"avatar_large":"http://tp1.sinaimg.cn/2518449700/180/5723893968/1","avatar_hd":"http://ww4.sinaimg.cn/crop.0.0.640.640.1024/961c7e24jw8er472mtzuxj20hs0hsaar.jpg","verified_reason":"","verified_trade":"","verified_reason_url":"","verified_source":"","verified_source_url":"","follow_me":true,"online_status":0,"bi_followers_count":67,"lang":"zh-cn","star":0,"mbtype":2,"mbrank":4,"block_word":0,"block_app":0,"credit_score":80,"urank":24},"reposts_count":9,"comments_count":8,"attitudes_count":12,"mlevel":0,"visible":{"type":0,"list_id":0},"darwin_tags":[]},"reposts_count":2,"comments_count":1,"attitudes_count":3,"mlevel":0,"visible":{"type":0,"list_id":0},"darwin_tags":[]}
+
+1771 INFO  [2015-06-12 16:15:14]  Status [user=User [id=2686434875, screenName=delpieroale, name=delpieroale, province=400, city=7, location=海外 澳大利亚, description=胖纸官方微博已经开通-> @delpiero 欢迎前去围观骚扰和调戏！, url=http://delpieroale.com, profileImageUrl=http://tp4.sinaimg.cn/2686434875/50/5684199880/1, userDomain=, gender=m, followersCount=2599, friendsCount=86, statusesCount=1909, favouritesCount=16, createdAt=Sat Mar 31 04:52:02 AEDT 2012, following=false, verified=false, verifiedType=-1, allowAllActMsg=false, allowAllComment=true, followMe=false, avatarLarge=http://tp4.sinaimg.cn/2686434875/180/5684199880/1, onlineStatus=0, status=null, biFollowersCount=61, remark=null, lang=zh-cn, verifiedReason=, weihao=, statusId=], idstr=3851860618666547, createdAt=Tue Jun 09 18:29:58 AEST 2015, id=3851860618666547, text=[爱你][爱你][爱你], source=Source [url=http://app.weibo.com/t/feed/9ksdit, relationShip=nofollow, name=iPhone客户端], favorited=false, truncated=false, inReplyToStatusId=-1, inReplyToUserId=-1, inReplyToScreenName=, thumbnailPic=, bmiddlePic=, originalPic=, retweetedStatus=Status [user=User [id=2518449700, screenName=皮耶罗贴吧, name=皮耶罗贴吧, province=100, city=1000, location=其他, description=百度皮耶罗贴吧微博 欢迎尤文蒂尼及喜欢皮耶罗的朋友关注, url=http://tieba.baidu.com/f?kw=%C6%A4%D2%AE%C2%DE, profileImageUrl=http://tp1.sinaimg.cn/2518449700/50/5723893968/1, userDomain=, gender=m, followersCount=3927, friendsCount=93, statusesCount=4949, favouritesCount=0, createdAt=Mon Nov 07 02:51:06 AEDT 2011, following=true, verified=false, verifiedType=-1, allowAllActMsg=false, allowAllComment=true, followMe=true, avatarLarge=http://tp1.sinaimg.cn/2518449700/180/5723893968/1, onlineStatus=0, status=null, biFollowersCount=67, remark=null, lang=zh-cn, verifiedReason=, weihao=, statusId=], idstr=3851824861945862, createdAt=Tue Jun 09 16:07:53 AEST 2015, id=3851824861945862, text=皮耶罗夫妇带着Tobias观看法网决赛，小Tobias戴着和爸爸一样的帽子，心情看起来好了很多，并已经学会了主动躲避狗仔的镜头。, source=Source [url=http://weibo.com/, relationShip=nofollow, name=微博 weibo.com], favorited=false, truncated=false, inReplyToStatusId=-1, inReplyToUserId=-1, inReplyToScreenName=, thumbnailPic=http://ww2.sinaimg.cn/thumbnail/961c7e24gw1esxt2ybltlj20cb0giaf8.jpg, bmiddlePic=http://ww2.sinaimg.cn/bmiddle/961c7e24gw1esxt2ybltlj20cb0giaf8.jpg, originalPic=http://ww2.sinaimg.cn/large/961c7e24gw1esxt2ybltlj20cb0giaf8.jpg, retweetedStatus=null, geo=null, latitude=-1.0, longitude=-1.0, repostsCount=9, commentsCount=8, mid=3851824861945862, annotations=, mlevel=0, visible=Visible [type=0, list_id=0]], geo=null, latitude=-1.0, longitude=-1.0, repostsCount=2, commentsCount=1, mid=3851860618666547, annotations=, mlevel=0, visible=Visible [type=0, list_id=0]]
+0    DEBUG [2015-06-12 16:17:08]  Request:
+0    DEBUG [2015-06-12 16:17:08]  GET:https://api.weibo.com/2/statuses/user_timeline/ids.json
+60   DEBUG [2015-06-12 16:17:08]  Authorization: OAuth2 2.00l7AovCf7hvVE58464c62e08L9iwD
+60   DEBUG [2015-06-12 16:17:08]  API-RemoteIP: 10.124.71.92
+1603 DEBUG [2015-06-12 16:17:10]  Response:
+1603 DEBUG [2015-06-12 16:17:10]  https StatusCode:200
+1603 DEBUG [2015-06-12 16:17:10]  Date:Fri, 12 Jun 2015 06:17:09 GMT
+1603 DEBUG [2015-06-12 16:17:10]  Server:PWS/8.1.20.9
+1603 DEBUG [2015-06-12 16:17:10]  X-Px:nc h0-s14.p0-syd ( h0-s5.p5-pvg), nc h0-s5.p5-pvg ( origin)
+1603 DEBUG [2015-06-12 16:17:10]  Content-Length:222
+1603 DEBUG [2015-06-12 16:17:10]  Content-Type:application/json;charset=UTF-8
+1603 DEBUG [2015-06-12 16:17:10]  Vary:Accept-Encoding
+1603 DEBUG [2015-06-12 16:17:10]  Api-Server-IP:10.75.5.97
+1603 DEBUG [2015-06-12 16:17:10]  Connection:keep-alive
+1623 DEBUG [2015-06-12 16:17:10]  {"statuses":["3851860618666547","3851566736100820","3851181502029931","3851160152807204","3850980963686461"],"marks":[],"hasvisible":false,"previous_cursor":0,"next_cursor":0,"total_number":1909,"interval":0,"uve_blank":0}
+
+1643 INFO  [2015-06-12 16:17:10]  UserTimelineIds [next_cursor=0, previous_cursor=0, marks=[], hasvisible=false, statusesIds=[3851860618666547, 3851566736100820, 3851181502029931, 3851160152807204, 3850980963686461], total_number = 1909]
+0    DEBUG [2015-06-12 16:20:36]  Request:
+0    DEBUG [2015-06-12 16:20:36]  GET:https://api.weibo.com/2/statuses/user_timeline/ids.json
+80   DEBUG [2015-06-12 16:20:36]  Authorization: OAuth2 2.00l7AovCf7hvVE58464c62e08L9iwD
+80   DEBUG [2015-06-12 16:20:36]  API-RemoteIP: 10.124.71.92
+2097 DEBUG [2015-06-12 16:20:38]  Response:
+2097 DEBUG [2015-06-12 16:20:38]  https StatusCode:200
+2097 DEBUG [2015-06-12 16:20:38]  Date:Fri, 12 Jun 2015 06:20:37 GMT
+2107 DEBUG [2015-06-12 16:20:38]  Server:PWS/8.1.20.9
+2107 DEBUG [2015-06-12 16:20:38]  X-Px:nc h0-s14.p0-syd ( h0-s5.p5-pvg), nc h0-s5.p5-pvg ( origin)
+2107 DEBUG [2015-06-12 16:20:38]  Content-Length:222
+2107 DEBUG [2015-06-12 16:20:38]  Content-Type:application/json;charset=UTF-8
+2107 DEBUG [2015-06-12 16:20:38]  Vary:Accept-Encoding
+2107 DEBUG [2015-06-12 16:20:38]  Api-Server-IP:10.75.5.62
+2107 DEBUG [2015-06-12 16:20:38]  Connection:keep-alive
+2127 DEBUG [2015-06-12 16:20:38]  {"statuses":["3851860618666547","3851566736100820","3851181502029931","3851160152807204","3850980963686461"],"marks":[],"hasvisible":false,"previous_cursor":0,"next_cursor":0,"total_number":1909,"interval":0,"uve_blank":0}
+
+0    DEBUG [2015-06-12 16:22:21]  Request:
+0    DEBUG [2015-06-12 16:22:21]  GET:https://api.weibo.com/2/statuses/user_timeline/ids.json
+110  DEBUG [2015-06-12 16:22:21]  Authorization: OAuth2 2.00l7AovCf7hvVE58464c62e08L9iwD
+110  DEBUG [2015-06-12 16:22:21]  API-RemoteIP: 10.124.71.92
+10964 DEBUG [2015-06-12 16:22:32]  Response:
+10964 DEBUG [2015-06-12 16:22:32]  https StatusCode:200
+10964 DEBUG [2015-06-12 16:22:32]  Date:Fri, 12 Jun 2015 06:22:31 GMT
+10964 DEBUG [2015-06-12 16:22:32]  Server:PWS/8.1.20.9
+10964 DEBUG [2015-06-12 16:22:32]  X-Px:nc h0-s14.p0-syd ( h0-s5.p5-pvg), nc h0-s5.p5-pvg ( origin)
+10964 DEBUG [2015-06-12 16:22:32]  Content-Length:222
+10974 DEBUG [2015-06-12 16:22:32]  Content-Type:application/json;charset=UTF-8
+10974 DEBUG [2015-06-12 16:22:32]  Vary:Accept-Encoding
+10974 DEBUG [2015-06-12 16:22:32]  Api-Server-IP:10.75.5.93
+10974 DEBUG [2015-06-12 16:22:32]  Connection:keep-alive
+10994 DEBUG [2015-06-12 16:22:32]  {"statuses":["3851860618666547","3851566736100820","3851181502029931","3851160152807204","3850980963686461"],"marks":[],"hasvisible":false,"previous_cursor":0,"next_cursor":0,"total_number":1909,"interval":0,"uve_blank":0}
+
+127097 INFO  [2015-06-12 16:24:28]  UserTimelineIds [next_cursor=0, previous_cursor=0, marks=[], hasvisible=false, statusesIds=[3851860618666547, 3851566736100820, 3851181502029931, 3851160152807204, 3850980963686461], total_number = 1909]
+0    DEBUG [2015-06-12 16:28:42]  Request:
+10   DEBUG [2015-06-12 16:28:42]  GET:https://api.weibo.com/2/statuses/queryid.json
+80   DEBUG [2015-06-12 16:28:42]  Authorization: OAuth2 2.00l7AovCf7hvVE58464c62e08L9iwD
+80   DEBUG [2015-06-12 16:28:42]  API-RemoteIP: 10.124.71.92
+1718 DEBUG [2015-06-12 16:28:44]  Response:
+1719 DEBUG [2015-06-12 16:28:44]  https StatusCode:200
+1719 DEBUG [2015-06-12 16:28:44]  Date:Fri, 12 Jun 2015 06:28:43 GMT
+1719 DEBUG [2015-06-12 16:28:44]  Server:PWS/8.1.20.9
+1720 DEBUG [2015-06-12 16:28:44]  X-Px:nc h0-s14.p0-syd ( h0-s5.p5-pvg), nc h0-s5.p5-pvg ( origin)
+1720 DEBUG [2015-06-12 16:28:44]  Content-Length:25
+1720 DEBUG [2015-06-12 16:28:44]  Content-Type:application/json;charset=UTF-8
+1721 DEBUG [2015-06-12 16:28:44]  Vary:Accept-Encoding
+1721 DEBUG [2015-06-12 16:28:44]  Api-Server-IP:10.75.5.65
+1722 DEBUG [2015-06-12 16:28:44]  Connection:keep-alive
+1736 DEBUG [2015-06-12 16:28:44]  {"id":"3845766697388372"}
+
+1750 INFO  [2015-06-12 16:28:44]  {"id":"3845766697388372"}
+0    DEBUG [2015-06-12 16:28:59]  Request:
+0    DEBUG [2015-06-12 16:28:59]  GET:https://api.weibo.com/2/statuses/show.json
+60   DEBUG [2015-06-12 16:28:59]  Authorization: OAuth2 2.00l7AovCf7hvVE58464c62e08L9iwD
+60   DEBUG [2015-06-12 16:28:59]  API-RemoteIP: 10.124.71.92
+2115 DEBUG [2015-06-12 16:29:01]  Response:
+2115 DEBUG [2015-06-12 16:29:01]  https StatusCode:200
+2115 DEBUG [2015-06-12 16:29:01]  Date:Fri, 12 Jun 2015 06:28:59 GMT
+2115 DEBUG [2015-06-12 16:29:01]  Server:PWS/8.1.20.9
+2115 DEBUG [2015-06-12 16:29:01]  Transfer-Encoding:chunked
+2115 DEBUG [2015-06-12 16:29:01]  X-Px:nc h0-s14.p0-syd ( h0-s14.p5-pvg), nc h0-s14.p5-pvg ( origin)
+2115 DEBUG [2015-06-12 16:29:01]  Content-Type:application/json;charset=UTF-8
+2115 DEBUG [2015-06-12 16:29:01]  Vary:Accept-Encoding
+2115 DEBUG [2015-06-12 16:29:01]  Api-Server-IP:10.75.5.63
+2115 DEBUG [2015-06-12 16:29:01]  Connection:keep-alive
+2125 WARN  [2015-06-12 16:29:01]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2125 DEBUG [2015-06-12 16:29:01]  {"created_at":"Sat May 23 20:54:54 +0800 2015","id":3845766697388372,"mid":"3845766697388372","idstr":"3845766697388372","text":"🏆🏆忍不住来助长一下歪风邪气，如果小破文在柏林夺冠，就在转发的蒂尼蒂娜中抽一位送胖纸13年在墨尔本参加“A Night with Del Piero”晚宴的手环，胖纸亲签的照片和巧克力饼干Timtam一包。如果胖纸出现在现场，额外抽三人送墨尔本寄出的明信片各一张（明信片无论是否夺冠只要胖纸出现在球场就送）","source_allowclick":0,"source_type":1,"source":"<a href=\"http://app.weibo.com/t/feed/9ksdit\" rel=\"nofollow\">iPhone客户端</a>","favorited":false,"truncated":false,"in_reply_to_status_id":"","in_reply_to_user_id":"","in_reply_to_screen_name":"","pic_urls":[{"thumbnail_pic":"http://ww4.sinaimg.cn/thumbnail/a01fbe3bjw1esegtoes3tj20hs0dcdhh.jpg"},{"thumbnail_pic":"http://ww2.sinaimg.cn/thumbnail/a01fbe3bjw1esegtqfigaj20hs0hs0uq.jpg"},{"thumbnail_pic":"http://ww2.sinaimg.cn/thumbnail/a01fbe3bjw1esegts95iej20dd0hsq3x.jpg"},{"thumbnail_pic":"http://ww2.sinaimg.cn/thumbnail/a01fbe3bjw1esegtmqiwyj20m708vq44.jpg"}],"thumbnail_pic":"http://ww4.sinaimg.cn/thumbnail/a01fbe3bjw1esegtoes3tj20hs0dcdhh.jpg","bmiddle_pic":"http://ww4.sinaimg.cn/bmiddle/a01fbe3bjw1esegtoes3tj20hs0dcdhh.jpg","original_pic":"http://ww4.sinaimg.cn/large/a01fbe3bjw1esegtoes3tj20hs0dcdhh.jpg","geo":null,"user":{"id":2686434875,"idstr":"2686434875","class":1,"screen_name":"delpieroale","name":"delpieroale","province":"400","city":"7","location":"海外 澳大利亚","description":"胖纸官方微博已经开通-> @delpiero 欢迎前去围观骚扰和调戏！","url":"http://delpieroale.com","profile_image_url":"http://tp4.sinaimg.cn/2686434875/50/5684199880/1","profile_url":"u/2686434875","domain":"","weihao":"","gender":"m","followers_count":2599,"friends_count":86,"pagefriends_count":1,"statuses_count":1909,"favourites_count":16,"created_at":"Sat Mar 31 01:52:02 +0800 2012","following":false,"allow_all_act_msg":false,"geo_enabled":true,"verified":false,"verified_type":-1,"remark":"","ptype":0,"allow_all_comment":true,"avatar_large":"http://tp4.sinaimg.cn/2686434875/180/5684199880/1","avatar_hd":"http://ww4.sinaimg.cn/crop.0.0.640.640.1024/a01fbe3bjw8ecd22eytl0j20hs0hsq3q.jpg","verified_reason":"","verified_trade":"","verified_reason_url":"","verified_source":"","verified_source_url":"","follow_me":false,"online_status":0,"bi_followers_count":61,"lang":"zh-cn","star":0,"mbtype":0,"mbrank":0,"block_word":0,"block_app":0,"credit_score":80,"urank":19},"annotations":[{"client_mblogid":"iPhone-22922216-48E1-4243-9D0C-33E2A664A23A"}],"reposts_count":344,"comments_count":57,"attitudes_count":12,"mlevel":0,"visible":{"type":0,"list_id":0},"darwin_tags":[]}
+
+2145 INFO  [2015-06-12 16:29:01]  Status [user=User [id=2686434875, screenName=delpieroale, name=delpieroale, province=400, city=7, location=海外 澳大利亚, description=胖纸官方微博已经开通-> @delpiero 欢迎前去围观骚扰和调戏！, url=http://delpieroale.com, profileImageUrl=http://tp4.sinaimg.cn/2686434875/50/5684199880/1, userDomain=, gender=m, followersCount=2599, friendsCount=86, statusesCount=1909, favouritesCount=16, createdAt=Sat Mar 31 04:52:02 AEDT 2012, following=false, verified=false, verifiedType=-1, allowAllActMsg=false, allowAllComment=true, followMe=false, avatarLarge=http://tp4.sinaimg.cn/2686434875/180/5684199880/1, onlineStatus=0, status=null, biFollowersCount=61, remark=null, lang=zh-cn, verifiedReason=, weihao=, statusId=], idstr=3845766697388372, createdAt=Sat May 23 22:54:54 AEST 2015, id=3845766697388372, text=🏆🏆忍不住来助长一下歪风邪气，如果小破文在柏林夺冠，就在转发的蒂尼蒂娜中抽一位送胖纸13年在墨尔本参加“A Night with Del Piero”晚宴的手环，胖纸亲签的照片和巧克力饼干Timtam一包。如果胖纸出现在现场，额外抽三人送墨尔本寄出的明信片各一张（明信片无论是否夺冠只要胖纸出现在球场就送）, source=Source [url=http://app.weibo.com/t/feed/9ksdit, relationShip=nofollow, name=iPhone客户端], favorited=false, truncated=false, inReplyToStatusId=-1, inReplyToUserId=-1, inReplyToScreenName=, thumbnailPic=http://ww4.sinaimg.cn/thumbnail/a01fbe3bjw1esegtoes3tj20hs0dcdhh.jpg, bmiddlePic=http://ww4.sinaimg.cn/bmiddle/a01fbe3bjw1esegtoes3tj20hs0dcdhh.jpg, originalPic=http://ww4.sinaimg.cn/large/a01fbe3bjw1esegtoes3tj20hs0dcdhh.jpg, retweetedStatus=null, geo=null, latitude=-1.0, longitude=-1.0, repostsCount=344, commentsCount=57, mid=3845766697388372, annotations=[{"client_mblogid":"iPhone-22922216-48E1-4243-9D0C-33E2A664A23A"}], mlevel=0, visible=Visible [type=0, list_id=0]]
+0    DEBUG [2015-06-12 16:39:03]  Request:
+0    DEBUG [2015-06-12 16:39:03]  GET:https://api.weibo.com/2/statuses/repost_timeline/ids.json
+60   DEBUG [2015-06-12 16:39:03]  Authorization: OAuth2 2.00l7AovCf7hvVE58464c62e08L9iwD
+60   DEBUG [2015-06-12 16:39:03]  API-RemoteIP: 10.124.71.92
+1551 DEBUG [2015-06-12 16:39:04]  Response:
+1551 DEBUG [2015-06-12 16:39:04]  https StatusCode:200
+1551 DEBUG [2015-06-12 16:39:04]  Date:Fri, 12 Jun 2015 06:39:04 GMT
+1551 DEBUG [2015-06-12 16:39:04]  Server:PWS/8.1.20.9
+1551 DEBUG [2015-06-12 16:39:04]  X-Px:nc h0-s14.p0-syd ( h0-s6.p5-pvg), nc h0-s6.p5-pvg ( origin)
+1551 DEBUG [2015-06-12 16:39:04]  Content-Length:496
+1551 DEBUG [2015-06-12 16:39:04]  Content-Type:application/json;charset=UTF-8
+1551 DEBUG [2015-06-12 16:39:04]  Vary:Accept-Encoding
+1551 DEBUG [2015-06-12 16:39:04]  Api-Server-IP:10.75.5.64
+1551 DEBUG [2015-06-12 16:39:04]  Connection:keep-alive
+1571 DEBUG [2015-06-12 16:39:04]  {"statuses":["3850923862822923","3850914534619968","3850892413873266","3850891385906611","3850889238181080","3850873010994894","3850872411174490","3850871911947658","3850865180208487","3850864399824808","3850861538724989","3850860066910081","3850855252433529","3850854316935219","3850851468305925","3850851091703105","3850848788858899","3850847353752154","3850815284745934","3850753280112024"],"hasvisible":false,"previous_cursor":0,"next_cursor":3850716110477775,"total_number":344,"interval":0}
+
+1591 INFO  [2015-06-12 16:39:04]  RepostTimelineIds [next_cursor=3850716110477775, previous_cursor=0, interval=0, hasvisible=false, statusesIds=[3850923862822923, 3850914534619968, 3850892413873266, 3850891385906611, 3850889238181080, 3850873010994894, 3850872411174490, 3850871911947658, 3850865180208487, 3850864399824808, 3850861538724989, 3850860066910081, 3850855252433529, 3850854316935219, 3850851468305925, 3850851091703105, 3850848788858899, 3850847353752154, 3850815284745934, 3850753280112024], total_number = 344]
+0    DEBUG [2015-06-12 16:40:23]  Request:
+10   DEBUG [2015-06-12 16:40:23]  GET:https://api.weibo.com/2/users/show.json
+70   DEBUG [2015-06-12 16:40:23]  Authorization: OAuth2 2.00l7AovCf7hvVE58464c62e08L9iwD
+70   DEBUG [2015-06-12 16:40:23]  API-RemoteIP: 10.124.71.92
+1758 DEBUG [2015-06-12 16:40:24]  Response:
+1759 DEBUG [2015-06-12 16:40:24]  https StatusCode:400
+1759 DEBUG [2015-06-12 16:40:24]  Date:Fri, 12 Jun 2015 06:40:24 GMT
+1760 DEBUG [2015-06-12 16:40:24]  Server:PWS/8.1.20.9
+1760 DEBUG [2015-06-12 16:40:24]  X-Px:nc h0-s14.p0-syd ( h0-s6.p5-pvg), nc h0-s6.p5-pvg ( origin)
+1761 DEBUG [2015-06-12 16:40:24]  Content-Length:83
+1761 DEBUG [2015-06-12 16:40:24]  Content-Type:application/json;charset=UTF-8
+1761 DEBUG [2015-06-12 16:40:24]  Vary:Accept-Encoding
+1762 DEBUG [2015-06-12 16:40:24]  Api-Server-IP:10.75.5.64
+1762 DEBUG [2015-06-12 16:40:24]  Connection:keep-alive
+1774 DEBUG [2015-06-12 16:40:24]  {"error":"User does not exists!","error_code":20003,"request":"/2/users/show.json"}
+
+0    DEBUG [2015-06-12 16:40:52]  Request:
+1    DEBUG [2015-06-12 16:40:52]  GET:https://api.weibo.com/2/statuses/repost_timeline/ids.json
+65   DEBUG [2015-06-12 16:40:52]  Authorization: OAuth2 2.00l7AovCf7hvVE58464c62e08L9iwD
+66   DEBUG [2015-06-12 16:40:52]  API-RemoteIP: 10.124.71.92
+1260 DEBUG [2015-06-12 16:40:54]  Response:
+1260 DEBUG [2015-06-12 16:40:54]  https StatusCode:200
+1260 DEBUG [2015-06-12 16:40:54]  Date:Fri, 12 Jun 2015 06:40:53 GMT
+1260 DEBUG [2015-06-12 16:40:54]  Server:PWS/8.1.20.9
+1260 DEBUG [2015-06-12 16:40:54]  X-Px:nc h0-s14.p0-syd ( h0-s6.p5-pvg), nc h0-s6.p5-pvg ( origin)
+1260 DEBUG [2015-06-12 16:40:54]  Content-Length:496
+1260 DEBUG [2015-06-12 16:40:54]  Content-Type:application/json;charset=UTF-8
+1260 DEBUG [2015-06-12 16:40:54]  Vary:Accept-Encoding
+1260 DEBUG [2015-06-12 16:40:54]  Api-Server-IP:10.75.5.91
+1260 DEBUG [2015-06-12 16:40:54]  Connection:keep-alive
+1270 DEBUG [2015-06-12 16:40:54]  {"statuses":["3850923862822923","3850914534619968","3850892413873266","3850891385906611","3850889238181080","3850873010994894","3850872411174490","3850871911947658","3850865180208487","3850864399824808","3850861538724989","3850860066910081","3850855252433529","3850854316935219","3850851468305925","3850851091703105","3850848788858899","3850847353752154","3850815284745934","3850753280112024"],"hasvisible":false,"previous_cursor":0,"next_cursor":3850716110477775,"total_number":344,"interval":0}
+
+1290 INFO  [2015-06-12 16:40:54]  RepostTimelineIds [next_cursor=3850716110477775, previous_cursor=0, interval=0, hasvisible=false, statusesIds=[3850923862822923, 3850914534619968, 3850892413873266, 3850891385906611, 3850889238181080, 3850873010994894, 3850872411174490, 3850871911947658, 3850865180208487, 3850864399824808, 3850861538724989, 3850860066910081, 3850855252433529, 3850854316935219, 3850851468305925, 3850851091703105, 3850848788858899, 3850847353752154, 3850815284745934, 3850753280112024], total_number = 344]
+0    DEBUG [2015-06-12 16:42:56]  Request:
+0    DEBUG [2015-06-12 16:42:56]  GET:https://api.weibo.com/2/statuses/show.json
+72   DEBUG [2015-06-12 16:42:56]  Authorization: OAuth2 2.00l7AovCf7hvVE58464c62e08L9iwD
+72   DEBUG [2015-06-12 16:42:56]  API-RemoteIP: 10.124.71.92
+1711 DEBUG [2015-06-12 16:42:58]  Response:
+1711 DEBUG [2015-06-12 16:42:58]  https StatusCode:400
+1711 DEBUG [2015-06-12 16:42:58]  Date:Fri, 12 Jun 2015 06:42:57 GMT
+1712 DEBUG [2015-06-12 16:42:58]  Server:PWS/8.1.20.9
+1712 DEBUG [2015-06-12 16:42:58]  X-Px:nc h0-s14.p0-syd ( h0-s4.p5-pvg), nc h0-s4.p5-pvg ( origin)
+1712 DEBUG [2015-06-12 16:42:58]  Content-Length:83
+1712 DEBUG [2015-06-12 16:42:58]  Content-Type:application/json;charset=UTF-8
+1712 DEBUG [2015-06-12 16:42:58]  Vary:Accept-Encoding
+1712 DEBUG [2015-06-12 16:42:58]  Api-Server-IP:10.75.5.62
+1713 DEBUG [2015-06-12 16:42:58]  Connection:keep-alive
+1720 DEBUG [2015-06-12 16:42:58]  {"error":"Permission Denied!","error_code":20112,"request":"/2/statuses/show.json"}
+
+0    DEBUG [2015-06-12 16:45:28]  Request:
+3    DEBUG [2015-06-12 16:45:28]  GET:https://api.weibo.com/2/statuses/show.json
+100  DEBUG [2015-06-12 16:45:28]  Authorization: OAuth2 2.00l7AovCf7hvVE58464c62e08L9iwD
+100  DEBUG [2015-06-12 16:45:28]  API-RemoteIP: 10.124.71.92
+1540 DEBUG [2015-06-12 16:45:29]  Response:
+1540 DEBUG [2015-06-12 16:45:29]  https StatusCode:200
+1540 DEBUG [2015-06-12 16:45:29]  Date:Fri, 12 Jun 2015 06:45:29 GMT
+1540 DEBUG [2015-06-12 16:45:29]  Server:PWS/8.1.20.9
+1540 DEBUG [2015-06-12 16:45:29]  Transfer-Encoding:chunked
+1540 DEBUG [2015-06-12 16:45:29]  X-Px:nc h0-s14.p0-syd ( h0-s14.p5-pvg), nc h0-s14.p5-pvg ( origin)
+1540 DEBUG [2015-06-12 16:45:29]  Content-Type:application/json;charset=UTF-8
+1540 DEBUG [2015-06-12 16:45:29]  Vary:Accept-Encoding
+1540 DEBUG [2015-06-12 16:45:29]  Api-Server-IP:10.75.5.58
+1540 DEBUG [2015-06-12 16:45:29]  Connection:keep-alive
+1541 WARN  [2015-06-12 16:45:29]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+1541 DEBUG [2015-06-12 16:45:29]  {"created_at":"Sat May 23 20:54:54 +0800 2015","id":3845766697388372,"mid":"3845766697388372","idstr":"3845766697388372","text":"🏆🏆忍不住来助长一下歪风邪气，如果小破文在柏林夺冠，就在转发的蒂尼蒂娜中抽一位送胖纸13年在墨尔本参加“A Night with Del Piero”晚宴的手环，胖纸亲签的照片和巧克力饼干Timtam一包。如果胖纸出现在现场，额外抽三人送墨尔本寄出的明信片各一张（明信片无论是否夺冠只要胖纸出现在球场就送）","source_allowclick":0,"source_type":1,"source":"<a href=\"http://app.weibo.com/t/feed/9ksdit\" rel=\"nofollow\">iPhone客户端</a>","favorited":false,"truncated":false,"in_reply_to_status_id":"","in_reply_to_user_id":"","in_reply_to_screen_name":"","pic_urls":[{"thumbnail_pic":"http://ww4.sinaimg.cn/thumbnail/a01fbe3bjw1esegtoes3tj20hs0dcdhh.jpg"},{"thumbnail_pic":"http://ww2.sinaimg.cn/thumbnail/a01fbe3bjw1esegtqfigaj20hs0hs0uq.jpg"},{"thumbnail_pic":"http://ww2.sinaimg.cn/thumbnail/a01fbe3bjw1esegts95iej20dd0hsq3x.jpg"},{"thumbnail_pic":"http://ww2.sinaimg.cn/thumbnail/a01fbe3bjw1esegtmqiwyj20m708vq44.jpg"}],"thumbnail_pic":"http://ww4.sinaimg.cn/thumbnail/a01fbe3bjw1esegtoes3tj20hs0dcdhh.jpg","bmiddle_pic":"http://ww4.sinaimg.cn/bmiddle/a01fbe3bjw1esegtoes3tj20hs0dcdhh.jpg","original_pic":"http://ww4.sinaimg.cn/large/a01fbe3bjw1esegtoes3tj20hs0dcdhh.jpg","geo":null,"user":{"id":2686434875,"idstr":"2686434875","class":1,"screen_name":"delpieroale","name":"delpieroale","province":"400","city":"7","location":"海外 澳大利亚","description":"胖纸官方微博已经开通-> @delpiero 欢迎前去围观骚扰和调戏！","url":"http://delpieroale.com","profile_image_url":"http://tp4.sinaimg.cn/2686434875/50/5684199880/1","profile_url":"u/2686434875","domain":"","weihao":"","gender":"m","followers_count":2599,"friends_count":86,"pagefriends_count":1,"statuses_count":1909,"favourites_count":16,"created_at":"Sat Mar 31 01:52:02 +0800 2012","following":false,"allow_all_act_msg":false,"geo_enabled":true,"verified":false,"verified_type":-1,"remark":"","ptype":0,"allow_all_comment":true,"avatar_large":"http://tp4.sinaimg.cn/2686434875/180/5684199880/1","avatar_hd":"http://ww4.sinaimg.cn/crop.0.0.640.640.1024/a01fbe3bjw8ecd22eytl0j20hs0hsq3q.jpg","verified_reason":"","verified_trade":"","verified_reason_url":"","verified_source":"","verified_source_url":"","follow_me":false,"online_status":0,"bi_followers_count":61,"lang":"zh-cn","star":0,"mbtype":0,"mbrank":0,"block_word":0,"block_app":0,"credit_score":80,"urank":19},"annotations":[{"client_mblogid":"iPhone-22922216-48E1-4243-9D0C-33E2A664A23A"}],"reposts_count":344,"comments_count":57,"attitudes_count":12,"mlevel":0,"visible":{"type":0,"list_id":0},"darwin_tags":[]}
+
+1857 INFO  [2015-06-12 16:45:30]  Status [user=User [id=2686434875, screenName=delpieroale, name=delpieroale, province=400, city=7, location=海外 澳大利亚, description=胖纸官方微博已经开通-> @delpiero 欢迎前去围观骚扰和调戏！, url=http://delpieroale.com, profileImageUrl=http://tp4.sinaimg.cn/2686434875/50/5684199880/1, userDomain=, gender=m, followersCount=2599, friendsCount=86, statusesCount=1909, favouritesCount=16, createdAt=Sat Mar 31 04:52:02 AEDT 2012, following=false, verified=false, verifiedType=-1, allowAllActMsg=false, allowAllComment=true, followMe=false, avatarLarge=http://tp4.sinaimg.cn/2686434875/180/5684199880/1, onlineStatus=0, status=null, biFollowersCount=61, remark=null, lang=zh-cn, verifiedReason=, weihao=, statusId=], idstr=3845766697388372, createdAt=Sat May 23 22:54:54 AEST 2015, id=3845766697388372, text=🏆🏆忍不住来助长一下歪风邪气，如果小破文在柏林夺冠，就在转发的蒂尼蒂娜中抽一位送胖纸13年在墨尔本参加“A Night with Del Piero”晚宴的手环，胖纸亲签的照片和巧克力饼干Timtam一包。如果胖纸出现在现场，额外抽三人送墨尔本寄出的明信片各一张（明信片无论是否夺冠只要胖纸出现在球场就送）, source=Source [url=http://app.weibo.com/t/feed/9ksdit, relationShip=nofollow, name=iPhone客户端], favorited=false, truncated=false, inReplyToStatusId=-1, inReplyToUserId=-1, inReplyToScreenName=, thumbnailPic=http://ww4.sinaimg.cn/thumbnail/a01fbe3bjw1esegtoes3tj20hs0dcdhh.jpg, bmiddlePic=http://ww4.sinaimg.cn/bmiddle/a01fbe3bjw1esegtoes3tj20hs0dcdhh.jpg, originalPic=http://ww4.sinaimg.cn/large/a01fbe3bjw1esegtoes3tj20hs0dcdhh.jpg, retweetedStatus=null, geo=null, latitude=-1.0, longitude=-1.0, repostsCount=344, commentsCount=57, mid=3845766697388372, annotations=[{"client_mblogid":"iPhone-22922216-48E1-4243-9D0C-33E2A664A23A"}], mlevel=0, visible=Visible [type=0, list_id=0]]
+0    DEBUG [2015-06-12 16:45:54]  Request:
+3    DEBUG [2015-06-12 16:45:54]  GET:https://api.weibo.com/2/statuses/repost_timeline.json
+85   DEBUG [2015-06-12 16:45:54]  Authorization: OAuth2 2.00l7AovCf7hvVE58464c62e08L9iwD
+85   DEBUG [2015-06-12 16:45:54]  API-RemoteIP: 10.124.71.92
+1870 DEBUG [2015-06-12 16:45:56]  Response:
+1870 DEBUG [2015-06-12 16:45:56]  https StatusCode:200
+1870 DEBUG [2015-06-12 16:45:56]  Date:Fri, 12 Jun 2015 06:45:55 GMT
+1870 DEBUG [2015-06-12 16:45:56]  Server:PWS/8.1.20.9
+1871 DEBUG [2015-06-12 16:45:56]  X-Px:nc h0-s14.p0-syd ( h0-s6.p5-pvg), nc h0-s6.p5-pvg ( origin)
+1871 DEBUG [2015-06-12 16:45:56]  Content-Length:116
+1871 DEBUG [2015-06-12 16:45:56]  Content-Type:application/json;charset=UTF-8
+1871 DEBUG [2015-06-12 16:45:56]  Vary:Accept-Encoding
+1871 DEBUG [2015-06-12 16:45:56]  Api-Server-IP:10.75.5.60
+1872 DEBUG [2015-06-12 16:45:56]  Connection:keep-alive
+1880 DEBUG [2015-06-12 16:45:56]  {"reposts":[],"hasvisible":false,"previous_cursor":0,"next_cursor":3850716110477775,"total_number":344,"interval":0}
+
+2699 INFO  [2015-06-12 16:45:57]  StatusWapper [statuses=[], previousCursor=0, nextCursor=3850716110477775, totalNumber=344, hasvisible=false]
